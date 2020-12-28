@@ -5,17 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7f489e6-73d4-48b6-be1b-c044b3d24a62" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/DesignPattern.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/DynamicProxy/BirdProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/DynamicProxy/DynamicProxyMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/DynamicProxy/Flyable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/StaticProxy/ProxySubject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/StaticProxy/RealSubject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/StaticProxy/StaticProxyMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/StaticProxy/Subject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/DynamicProxy/MyInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/DynamicProxy/RealSubject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/DesignPattern.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/DesignPattern.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/src/DynamicProxy/Bird.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/src/DynamicProxy/BirdProxy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/src/DynamicProxy/DynamicProxyMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/src/DynamicProxy/DynamicProxyMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/src/DynamicProxy/Flyable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/DynamicProxy/Bird.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/DynamicProxy/BirdProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/DynamicProxy/DynamicProxyMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/DynamicProxy/DynamicProxyMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/DynamicProxy/Flyable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/StaticProxy/ProxySubject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/StaticProxy/ProxySubject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/StaticProxy/RealSubject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/StaticProxy/RealSubject.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,9 +53,9 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="build.tools" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Application.StaticProxyMain">
+  <component name="RunManager" selected="Application.DynamicProxyMain">
     <configuration name="DynamicProxyMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DynamicProxy.DynamicProxyMain" />
       <module name="DesignPattern" />
@@ -78,10 +82,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StaticProxyMain" />
         <item itemvalue="Application.DynamicProxyMain" />
+        <item itemvalue="Application.StaticProxyMain" />
       </list>
     </recent_temporary>
   </component>
@@ -106,6 +121,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
