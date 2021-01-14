@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7f489e6-73d4-48b6-be1b-c044b3d24a62" name="Default Changelist" comment="Add Dynamic Proxy">
-      <change afterPath="$PROJECT_DIR$/out/production/DesignPattern/DynamicProxy/DynamicProxyMain$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/DesignPattern/DynamicProxy/MyInterface.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/DesignPattern/DynamicProxy/RealSubject.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/bearfamily/Common/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/bearfamily/DynamicProxies/DynamicProxiesMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/bearfamily/DynamicProxies/IUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/bearfamily/DynamicProxies/IUserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/bearfamily/DynamicProxies/Interceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/bearfamily/DynamicProxies/InterceptorImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/bearfamily/DynamicProxies/MyInvocationHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/bearfamily/DynamicProxies/ProxyFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/bearfamily/LamdaExpression/LamdaExprMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e7f489e6-73d4-48b6-be1b-c044b3d24a62" name="Default Changelist" comment="Add Dynamic Proxy" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -146,7 +131,7 @@
       <workItem from="1609412509763" duration="926000" />
       <workItem from="1609571527437" duration="6367000" />
       <workItem from="1609598308482" duration="29000" />
-      <workItem from="1610626204409" duration="8131000" />
+      <workItem from="1610626204409" duration="8544000" />
     </task>
     <task id="LOCAL-00001" summary="Add Dynamic Proxy">
       <created>1609167471144</created>
