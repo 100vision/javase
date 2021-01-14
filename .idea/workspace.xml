@@ -5,21 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7f489e6-73d4-48b6-be1b-c044b3d24a62" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/DynamicProxy/MyInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/DynamicProxy/RealSubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/DynamicProxyPractice/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/DynamicProxyPractice/IAccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/DynamicProxyPractice/ProxyHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/DynamicProxyPractice/TestDynamicProxyMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bearfamily/DynamicProxy/DynamicProxyMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bearfamily/DynamicProxy/Greeting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bearfamily/DynamicProxy/GreetingImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DesignPattern/DesignPattern.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/DesignPattern.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/src/DynamicProxy/Bird.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/src/DynamicProxy/BirdProxy.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/DesignPattern/src/DynamicProxy/DynamicProxyMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/src/DynamicProxy/DynamicProxyMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/src/DynamicProxy/Flyable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/DynamicProxy/Bird.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/DynamicProxy/BirdProxy.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/DynamicProxy/DynamicProxyMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/DynamicProxy/DynamicProxyMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/DynamicProxy/Flyable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/StaticProxy/ProxySubject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/StaticProxy/ProxySubject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/StaticProxy/RealSubject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/StaticProxy/RealSubject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bearfamily/Reflection/Reflection1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bearfamily/Reflection/Reflection1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,14 +46,35 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="13" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Application.DynamicProxyMain">
-    <configuration name="DynamicProxyMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.bearfamily.DynamicProxy" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.DynamicProxyMain (1)">
+    <configuration name="DynamicProxyMain (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bearfamily.DynamicProxy.DynamicProxyMain" />
+      <module name="JavaBasisFromZero" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bearfamily.DynamicProxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DynamicProxyMain" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DynamicProxy.DynamicProxyMain" />
       <module name="DesignPattern" />
       <extension name="coverage">
@@ -82,25 +100,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
+    <configuration name="TestDynamicProxy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DynamicProxyPractice.TestDynamicProxy" />
+      <module name="DesignPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DynamicProxyPractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDynamicProxyMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DynamicProxyPractice.TestDynamicProxyMain" />
+      <module name="DesignPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DynamicProxyPractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DynamicProxyMain" />
+        <item itemvalue="Application.DynamicProxyMain (1)" />
+        <item itemvalue="Application.TestDynamicProxyMain" />
+        <item itemvalue="Application.TestDynamicProxy" />
         <item itemvalue="Application.StaticProxyMain" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="e7f489e6-73d4-48b6-be1b-c044b3d24a62" name="Default Changelist" comment="" />
@@ -108,20 +146,68 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609123857816</updated>
+      <workItem from="1610610933164" duration="2119000" />
+      <workItem from="1610613072112" duration="3289000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="452" y="100" key="#Project_Structure" timestamp="1610611337250">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="452" y="100" key="#Project_Structure/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1610611337250" />
+    <state x="721" y="164" key="#com.intellij.ide.util.MemberChooser" timestamp="1610613768850">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="721" y="164" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1610613768850" />
+    <state width="1328" height="269" key="GridCell.Tab.0.bottom" timestamp="1610626738293">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1328" height="269" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1610626738293" />
+    <state width="1867" height="269" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1610614953228" />
+    <state width="1328" height="269" key="GridCell.Tab.0.center" timestamp="1610626738292">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1328" height="269" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1610626738292" />
+    <state width="1867" height="269" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1610614953228" />
+    <state width="1328" height="269" key="GridCell.Tab.0.left" timestamp="1610626738291">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1328" height="269" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1610626738291" />
+    <state width="1867" height="269" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1610614953228" />
+    <state width="1328" height="269" key="GridCell.Tab.0.right" timestamp="1610626738292">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1328" height="269" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1610626738292" />
+    <state width="1867" height="269" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1610614953228" />
+    <state x="312" y="0" key="SettingsEditor" timestamp="1610613026330">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="312" y="0" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1610613026330" />
+    <state x="175" y="36" key="Vcs.Push.Dialog.v2" timestamp="1610626800718">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="175" y="36" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1610626800718" />
+    <state x="363" y="129" key="git4idea.merge.GitPullDialog" timestamp="1610634831061">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="363" y="129" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1610634831061" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

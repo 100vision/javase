@@ -20,6 +20,7 @@ public class DynamicProxyMain {
         MyInterface proxyInstance = (MyInterface) constructor.newInstance(new InvocationHandler() {
             @Override
             public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
+                System.out.println(method.getName()+" is executing");
                 MyInterface realSubject = new RealSubject();
                 Object result = method.invoke(realSubject);
                 return result;
