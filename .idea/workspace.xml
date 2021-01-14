@@ -4,22 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7f489e6-73d4-48b6-be1b-c044b3d24a62" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/DynamicProxy/MyInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/DynamicProxy/RealSubject.java" afterDir="false" />
+    <list default="true" id="e7f489e6-73d4-48b6-be1b-c044b3d24a62" name="Default Changelist" comment="Add Dynamic Proxy">
+      <change afterPath="$PROJECT_DIR$/out/production/DesignPattern/DynamicProxy/DynamicProxyMain$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DesignPattern/DynamicProxy/MyInterface.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DesignPattern/DynamicProxy/RealSubject.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bearfamily/Common/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bearfamily/DynamicProxies/DynamicProxiesMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bearfamily/DynamicProxies/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bearfamily/DynamicProxies/IUserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bearfamily/DynamicProxies/Interceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bearfamily/DynamicProxies/InterceptorImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bearfamily/DynamicProxies/MyInvocationHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bearfamily/DynamicProxies/ProxyFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bearfamily/LamdaExpression/LamdaExprMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/DesignPattern.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/DesignPattern.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/src/DynamicProxy/Bird.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/src/DynamicProxy/BirdProxy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/src/DynamicProxy/DynamicProxyMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/src/DynamicProxy/DynamicProxyMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/src/DynamicProxy/Flyable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/DynamicProxy/Bird.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/DynamicProxy/BirdProxy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/DynamicProxy/DynamicProxyMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/DynamicProxy/DynamicProxyMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/DynamicProxy/Flyable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/StaticProxy/ProxySubject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/StaticProxy/ProxySubject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/StaticProxy/RealSubject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/StaticProxy/RealSubject.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,19 +48,53 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="13" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="build.tools" />
   </component>
-  <component name="RunManager" selected="Application.DynamicProxyMain">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.bearfamily.DynamicProxies" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.DynamicProxiesMain">
+    <configuration name="DynamicProxiesMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bearfamily.DynamicProxies.DynamicProxiesMain" />
+      <module name="JavaBasisFromZero" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bearfamily.DynamicProxies.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DynamicProxyMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DynamicProxy.DynamicProxyMain" />
       <module name="DesignPattern" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="StaticProxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LamdaExprMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bearfamily.LamdaExpression.LamdaExprMain" />
+      <module name="JavaBasisFromZero" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bearfamily.LamdaExpression.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,6 +128,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DynamicProxiesMain" />
+        <item itemvalue="Application.LamdaExprMain" />
         <item itemvalue="Application.DynamicProxyMain" />
         <item itemvalue="Application.StaticProxyMain" />
       </list>
@@ -108,8 +143,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609123857816</updated>
+      <workItem from="1609412509763" duration="926000" />
+      <workItem from="1609571527437" duration="6367000" />
+      <workItem from="1609598308482" duration="29000" />
+      <workItem from="1610626204409" duration="8131000" />
     </task>
+    <task id="LOCAL-00001" summary="Add Dynamic Proxy">
+      <created>1609167471144</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1609167471145</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -122,6 +172,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add Dynamic Proxy" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Dynamic Proxy" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
