@@ -4,19 +4,44 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7f489e6-73d4-48b6-be1b-c044b3d24a62" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/DynamicProxyPractice/AccountServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/DynamicProxyPractice/IAccountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/DynamicProxyPractice/ProxyHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/DynamicProxyPractice/TestDynamicProxyMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/bearfamily/DynamicProxy/DynamicProxyMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/bearfamily/DynamicProxy/Greeting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/bearfamily/DynamicProxy/GreetingImpl.java" afterDir="false" />
+    <list default="true" id="e7f489e6-73d4-48b6-be1b-c044b3d24a62" name="Default Changelist" comment="Add Dynamic Proxy">
+      <change afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/Common/Product.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/DynamicProxies/DynamicProxiesMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/DynamicProxies/IUserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/DynamicProxies/IUserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/DynamicProxies/ProxyFactory$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/DynamicProxies/ProxyFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/LamdaExpression/LamdaExprMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bearfamily/Common/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bearfamily/DynamicProxies/DynamicProxiesMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bearfamily/DynamicProxies/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bearfamily/DynamicProxies/IUserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bearfamily/DynamicProxies/Interceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bearfamily/DynamicProxies/InterceptorImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bearfamily/DynamicProxies/MyInvocationHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bearfamily/DynamicProxies/ProxyFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bearfamily/LamdaExpression/LamdaExprMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/DesignPattern.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/DesignPattern.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/src/DynamicProxy/DynamicProxyMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/src/DynamicProxy/DynamicProxyMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/DynamicProxy/DynamicProxyMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/DynamicProxy/DynamicProxyMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bearfamily/Reflection/Reflection1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bearfamily/Reflection/Reflection1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/DynamicProxy/DynamicProxyMain$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/DynamicProxy/DynamicProxyMain$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/Annotation/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/Annotation/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/Annotation/MyAnnotation1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/Annotation/MyAnnotation1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/Annotation/MyClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/Annotation/MyClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/Annotation/MyEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/Annotation/MyEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/Array/arrayRandom.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/Array/arrayRandom.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/CustomClassComparable/CustomComparison.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/CustomClassComparable/CustomComparison.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/CustomClassComparable/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/CustomClassComparable/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MultiThreading/BankAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MultiThreading/BankAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MultiThreading/BankAccountThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MultiThreading/BankAccountThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MultiThreading/MT01.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MultiThreading/MT01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MultiThreading/MT02.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MultiThreading/MT02.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MultiThreading/MTSafeSchronized.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MultiThreading/MTSafeSchronized.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MultiThreading/MyThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MultiThreading/MyThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MultiThreading/MyThread2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MultiThreading/MyThread2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/RefTypes/ReftypeComparision.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/RefTypes/ReftypeComparision.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/RefTypes/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/RefTypes/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/Reflection/Reflection1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/Reflection/Reflection1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/Reflection/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/Reflection/Student.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,24 +74,24 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="13" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="build.tools" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.bearfamily.DynamicProxy" />
+      <recent name="com.bearfamily.DynamicProxies" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DynamicProxyMain (1)">
-    <configuration name="DynamicProxyMain (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bearfamily.DynamicProxy.DynamicProxyMain" />
+  <component name="RunManager" selected="Application.DynamicProxiesMain">
+    <configuration name="DynamicProxiesMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bearfamily.DynamicProxies.DynamicProxiesMain" />
       <module name="JavaBasisFromZero" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bearfamily.DynamicProxy.*" />
+          <option name="PATTERN" value="com.bearfamily.DynamicProxies.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,12 +99,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DynamicProxyMain" type="Application" factoryName="Application" nameIsGenerated="true">
+    <configuration name="DynamicProxyMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DynamicProxy.DynamicProxyMain" />
       <module name="DesignPattern" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="StaticProxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LamdaExprMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bearfamily.LamdaExpression.LamdaExprMain" />
+      <module name="JavaBasisFromZero" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bearfamily.LamdaExpression.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,37 +138,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDynamicProxy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DynamicProxyPractice.TestDynamicProxy" />
-      <module name="DesignPattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DynamicProxyPractice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestDynamicProxyMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DynamicProxyPractice.TestDynamicProxyMain" />
-      <module name="DesignPattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DynamicProxyPractice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DynamicProxyMain (1)" />
-        <item itemvalue="Application.TestDynamicProxyMain" />
-        <item itemvalue="Application.TestDynamicProxy" />
+        <item itemvalue="Application.DynamicProxiesMain" />
+        <item itemvalue="Application.LamdaExprMain" />
+        <item itemvalue="Application.DynamicProxyMain" />
         <item itemvalue="Application.StaticProxyMain" />
       </list>
     </recent_temporary>
@@ -146,13 +158,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609123857816</updated>
-      <workItem from="1610610933164" duration="2119000" />
-      <workItem from="1610613072112" duration="3289000" />
+      <workItem from="1609412509763" duration="926000" />
+      <workItem from="1609571527437" duration="6367000" />
+      <workItem from="1609598308482" duration="29000" />
+      <workItem from="1610626204409" duration="8131000" />
     </task>
+    <task id="LOCAL-00001" summary="Add Dynamic Proxy">
+      <created>1609167471144</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1609167471145</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -167,47 +189,9 @@
       </map>
     </option>
   </component>
-  <component name="WindowStateProjectService">
-    <state x="452" y="100" key="#Project_Structure" timestamp="1610611337250">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="452" y="100" key="#Project_Structure/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1610611337250" />
-    <state x="721" y="164" key="#com.intellij.ide.util.MemberChooser" timestamp="1610613768850">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="721" y="164" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1610613768850" />
-    <state width="1328" height="269" key="GridCell.Tab.0.bottom" timestamp="1610626738293">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1328" height="269" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1610626738293" />
-    <state width="1867" height="269" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1610614953228" />
-    <state width="1328" height="269" key="GridCell.Tab.0.center" timestamp="1610626738292">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1328" height="269" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1610626738292" />
-    <state width="1867" height="269" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1610614953228" />
-    <state width="1328" height="269" key="GridCell.Tab.0.left" timestamp="1610626738291">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1328" height="269" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1610626738291" />
-    <state width="1867" height="269" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1610614953228" />
-    <state width="1328" height="269" key="GridCell.Tab.0.right" timestamp="1610626738292">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1328" height="269" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1610626738292" />
-    <state width="1867" height="269" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1610614953228" />
-    <state x="312" y="0" key="SettingsEditor" timestamp="1610613026330">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="312" y="0" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1610613026330" />
-    <state x="175" y="36" key="Vcs.Push.Dialog.v2" timestamp="1610626800718">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="175" y="36" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1610626800718" />
-    <state x="363" y="129" key="git4idea.merge.GitPullDialog" timestamp="1610634831061">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="363" y="129" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1610634831061" />
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add Dynamic Proxy" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Dynamic Proxy" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
