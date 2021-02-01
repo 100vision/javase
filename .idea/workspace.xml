@@ -5,25 +5,109 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7f489e6-73d4-48b6-be1b-c044b3d24a62" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/bearfamily/MD5/MD5salt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/bearfamily/MultiThreading/ThreadLocal/ThreadLocalMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/bearfamily/MultiThreading/threadpools/ThreadpoolMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/单实例模式/懒汉模式lazyMode/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bearfamily/Collections/Queues/LinkedList/LinkedListOper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bearfamily/DateTime/DateTimeOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bearfamily/IO/InputStream/InputAndOutStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bearfamily/MultiThreading/WaitAndNotify/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bearfamily/Networking/Socket/SocketClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bearfamily/Networking/Socket/SocketServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/readme.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaBasisFromZero.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasisFromZero.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/DynamicProxy/DynamicProxyMain$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/DynamicProxy/DynamicProxyMain$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/DynamicProxy/DynamicProxyMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/DynamicProxy/DynamicProxyMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/DynamicProxy/MyInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/DynamicProxy/MyInterface.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/DynamicProxy/RealSubject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/DynamicProxy/RealSubject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/DynamicProxyPractice/AccountServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/DynamicProxyPractice/AccountServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/DynamicProxyPractice/IAccountService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/DynamicProxyPractice/IAccountService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/DynamicProxyPractice/ProxyHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/DynamicProxyPractice/ProxyHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/DynamicProxyPractice/TestDynamicProxyMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/DynamicProxyPractice/TestDynamicProxyMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/StaticProxy/ProxySubject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/StaticProxy/ProxySubject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/StaticProxy/RealSubject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/StaticProxy/RealSubject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/StaticProxy/StaticProxyMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/StaticProxy/StaticProxyMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/StaticProxy/Subject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/StaticProxy/Subject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/META-INF/JavaBasisFromZero.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/Annotation/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/Annotation/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/Annotation/MyAnnotation1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/Annotation/MyAnnotation1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/Annotation/MyClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/Annotation/MyClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/Annotation/MyEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/Annotation/MyEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/Array/arrayRandom.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/Array/arrayRandom.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/Common/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/Common/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/CustomClassComparable/CustomComparison.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/CustomClassComparable/CustomComparison.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/CustomClassComparable/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/CustomClassComparable/Person.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/DynamicProxies/DynamicProxiesMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/DynamicProxies/DynamicProxiesMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/DynamicProxies/IUserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/DynamicProxies/IUserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/DynamicProxies/IUserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/DynamicProxies/IUserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/DynamicProxies/Interceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/DynamicProxies/Interceptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/DynamicProxies/InterceptorImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/DynamicProxies/InterceptorImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/DynamicProxies/MyInvocationHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/DynamicProxies/MyInvocationHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/DynamicProxies/ProxyFactory$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/DynamicProxies/ProxyFactory$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/DynamicProxies/ProxyFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/DynamicProxies/ProxyFactory.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/DynamicProxy/DynamicProxyMain$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/DynamicProxy/DynamicProxyMain$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/DynamicProxy/DynamicProxyMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/DynamicProxy/DynamicProxyMain.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/DynamicProxy/Greeting.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/DynamicProxy/Greeting.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/DynamicProxy/GreetingImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/DynamicProxy/GreetingImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/LamdaExpression/LamdaExprMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/LamdaExpression/LamdaExprMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MD5/MD5salt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MD5/MD5salt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MultiThreading/BankAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MultiThreading/BankAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MultiThreading/BankAccountThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MultiThreading/BankAccountThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MultiThreading/MT01.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MultiThreading/MT01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MultiThreading/MT02.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MultiThreading/MT02.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MultiThreading/MTSafeSchronized.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MultiThreading/MTSafeSchronized.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MultiThreading/MyThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MultiThreading/MyThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MultiThreading/MyThread2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MultiThreading/MyThread2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MultiThreading/ThreadLocal/MyThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MultiThreading/ThreadLocal/MyThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MultiThreading/ThreadLocal/ThreadContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MultiThreading/ThreadLocal/ThreadContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MultiThreading/ThreadLocal/ThreadLocalMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MultiThreading/ThreadLocal/ThreadLocalMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MultiThreading/ThreadLocal/ThreadTask1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MultiThreading/ThreadLocal/ThreadTask1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MultiThreading/ThreadLocal/ThreadTask2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MultiThreading/ThreadLocal/ThreadTask2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MultiThreading/ThreadLocal/ThreadTask3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MultiThreading/ThreadLocal/ThreadTask3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MultiThreading/ThreadLocal/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MultiThreading/ThreadLocal/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MultiThreading/threadpools/Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MultiThreading/threadpools/Task.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MultiThreading/threadpools/ThreadpoolMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MultiThreading/threadpools/ThreadpoolMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/RefTypes/ReftypeComparision.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/RefTypes/ReftypeComparision.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/RefTypes/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/RefTypes/Student.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/Reflection/Reflection1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/Reflection/Reflection1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bearfamily/MultiThreading/MT01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bearfamily/MultiThreading/MT01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/Reflection/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/Reflection/Student.class" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/bearfamily/MultiThreading/WaitAndNotify/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="67" column="32" selection-start-line="67" selection-start-column="32" selection-end-line="67" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DesignPattern/src/单实例模式/懒汉模式lazyMode/Singleton.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="684">
+              <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
+              <folding>
+                <element signature="e#175#176#0" expanded="true" />
+                <element signature="e#207#208#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -43,39 +127,154 @@
       </set>
     </option>
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/bearfamily/Collections/Queues/LinkedList/LinkedListOper.java" />
+        <option value="$PROJECT_DIR$/src/com/bearfamily/MultiThreading/WaitAndNotify/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/bearfamily/Enum/EnumOper.java" />
+        <option value="$PROJECT_DIR$/DesignPattern/src/单实例模式/懒汉模式lazyMode/SingletonOperation.java" />
+        <option value="$PROJECT_DIR$/DesignPattern/src/单实例模式/懒汉模式lazyMode/Singleton.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="260" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
   <component name="ProjectId" id="1mGdRyrcLSmcRCv3AaGKVTEoYHn" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="javase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javase" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javase" type="462c0819:PsiDirectoryNode" />
+              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javase" type="462c0819:PsiDirectoryNode" />
+              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javase" type="462c0819:PsiDirectoryNode" />
+              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="懒汉模式lazyMode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="bearfamily" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="bearfamily" type="462c0819:PsiDirectoryNode" />
+              <item name="Enum" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="bearfamily" type="462c0819:PsiDirectoryNode" />
+              <item name="MultiThreading" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="bearfamily" type="462c0819:PsiDirectoryNode" />
+              <item name="MultiThreading" type="462c0819:PsiDirectoryNode" />
+              <item name="WaitAndNotify" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="bearfamily" type="462c0819:PsiDirectoryNode" />
+              <item name="MultiThreading" type="462c0819:PsiDirectoryNode" />
+              <item name="WaitAndNotify" type="462c0819:PsiDirectoryNode" />
+              <item name="Main.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="13" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\MyDevelopWorks\Github-Managed\javase\src" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.bearfamily.Networking.Socket" />
       <recent name="com.bearfamily.DynamicProxies" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ThreadLocalMain">
-    <configuration name="DynamicProxiesMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bearfamily.DynamicProxies.DynamicProxiesMain" />
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.SingletonOperation">
+    <configuration name="DateTimeOperation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bearfamily.DateTime.DateTimeOperation" />
       <module name="JavaBasisFromZero" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bearfamily.DynamicProxies.*" />
+          <option name="PATTERN" value="com.bearfamily.DateTime.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +282,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InstanceOfOperator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bearfamily.InstanceOf.InstanceOfOperator" />
+    <configuration name="LinkedListOper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bearfamily.Collections.Queues.LinkedList.LinkedListOper" />
       <module name="JavaBasisFromZero" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bearfamily.InstanceOf.*" />
+          <option name="PATTERN" value="com.bearfamily.Collections.Queues.LinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +295,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MD5salt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bearfamily.MD5.MD5salt" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bearfamily.MultiThreading.WaitAndNotify.Main" />
       <module name="JavaBasisFromZero" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bearfamily.MD5.*" />
+          <option name="PATTERN" value="com.bearfamily.MultiThreading.WaitAndNotify.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +308,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadLocalMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bearfamily.MultiThreading.ThreadLocal.ThreadLocalMain" />
-      <module name="JavaBasisFromZero" />
+    <configuration name="SingletonOperation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="单实例模式.懒汉模式lazyMode.SingletonOperation" />
+      <module name="DesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bearfamily.MultiThreading.ThreadLocal.*" />
+          <option name="PATTERN" value="单实例模式.懒汉模式lazyMode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +321,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadpoolMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bearfamily.MultiThreading.threadpools.ThreadpoolMain" />
+    <configuration name="SocketClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bearfamily.Networking.Socket.SocketClient" />
       <module name="JavaBasisFromZero" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bearfamily.MultiThreading.threadpools.*" />
+          <option name="PATTERN" value="com.bearfamily.Networking.Socket.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,15 +336,15 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ThreadLocalMain" />
-        <item itemvalue="Application.ThreadpoolMain" />
-        <item itemvalue="Application.MD5salt" />
-        <item itemvalue="Application.InstanceOfOperator" />
-        <item itemvalue="Application.DynamicProxiesMain" />
+        <item itemvalue="Application.SingletonOperation" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.LinkedListOper" />
+        <item itemvalue="Application.DateTimeOperation" />
+        <item itemvalue="Application.SocketClient" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -164,7 +363,13 @@
       <workItem from="1610690872456" duration="1059000" />
       <workItem from="1610768030362" duration="1043000" />
       <workItem from="1610956038440" duration="8353000" />
-      <workItem from="1611025974960" duration="3122000" />
+      <workItem from="1611025974960" duration="4248000" />
+      <workItem from="1611040975705" duration="20641000" />
+      <workItem from="1611735044942" duration="122000" />
+      <workItem from="1611891708709" duration="7190000" />
+      <workItem from="1611906236492" duration="527000" />
+      <workItem from="1611906894572" duration="2662000" />
+      <workItem from="1611967800260" duration="4646000" />
     </task>
     <task id="LOCAL-00001" summary="Add Dynamic Proxy">
       <created>1609167471144</created>
@@ -183,6 +388,44 @@
     <option name="localTasksCounter" value="3" />
     <servers />
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="15025000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32939914" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3288889" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32890365" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3288889" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout>
+  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
@@ -192,14 +435,35 @@
         <entry key="MAIN">
           <value>
             <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
               <option name="COLUMN_ORDER" />
             </State>
           </value>
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Add Dynamic Proxy" />
     <option name="LAST_COMMIT_MESSAGE" value="Add Dynamic Proxy" />
   </component>
@@ -208,37 +472,226 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="452" y="100" key="#Project_Structure/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1611026066687" />
-    <state x="721" y="164" key="#com.intellij.ide.util.MemberChooser" timestamp="1611022354616">
+    <state x="721" y="164" key="#com.intellij.ide.util.MemberChooser" timestamp="1611105750483">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="721" y="164" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1611022354616" />
+    <state x="721" y="164" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1611105750483" />
+    <state x="627" y="213" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1611105674524">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="627" y="213" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1611105674524" />
     <state x="186" y="0" key="CommitChangelistDialog2" timestamp="1610635476719">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="186" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1610635476719" />
-    <state width="1867" height="157" key="GridCell.Tab.0.bottom" timestamp="1611028519683">
+    <state width="1867" height="333" key="GridCell.Tab.0.bottom" timestamp="1611295272048">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="157" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1611028519683" />
-    <state width="1867" height="157" key="GridCell.Tab.0.center" timestamp="1611028519683">
+    <state width="1867" height="333" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1611295272048" />
+    <state width="1867" height="320" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1611281745617" />
+    <state width="1867" height="333" key="GridCell.Tab.0.center" timestamp="1611295272048">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="157" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1611028519683" />
-    <state width="1867" height="157" key="GridCell.Tab.0.left" timestamp="1611028519683">
+    <state width="1867" height="333" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1611295272048" />
+    <state width="1867" height="320" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1611281745617" />
+    <state width="1867" height="333" key="GridCell.Tab.0.left" timestamp="1611295272048">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="157" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1611028519683" />
-    <state width="1867" height="157" key="GridCell.Tab.0.right" timestamp="1611028519683">
+    <state width="1867" height="333" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1611295272048" />
+    <state width="1867" height="320" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1611281745617" />
+    <state width="1867" height="333" key="GridCell.Tab.0.right" timestamp="1611295272048">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="157" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1611028519683" />
+    <state width="1867" height="333" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1611295272048" />
+    <state width="1867" height="320" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1611281745617" />
+    <state width="1867" height="333" key="GridCell.Tab.1.bottom" timestamp="1611295272049">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="333" key="GridCell.Tab.1.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1611295272049" />
+    <state width="1867" height="333" key="GridCell.Tab.1.center" timestamp="1611295272048">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="333" key="GridCell.Tab.1.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1611295272048" />
+    <state width="1867" height="333" key="GridCell.Tab.1.left" timestamp="1611295272048">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="333" key="GridCell.Tab.1.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1611295272048" />
+    <state width="1867" height="333" key="GridCell.Tab.1.right" timestamp="1611295272049">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="333" key="GridCell.Tab.1.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1611295272049" />
     <state x="336" y="0" key="SettingsEditor" timestamp="1611026537615">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="336" y="0" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1611026537615" />
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1611107694916">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1611107694916" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bearfamily/Networking/Socket/SocketServer.java</url>
+          <line>75</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bearfamily/Networking/Socket/SocketServer.java</url>
+          <line>84</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/bearfamily/MultiThreading/ThreadLocal/ThreadLocalMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="56" column="24" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bearfamily/Annotation/Main.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bearfamily/IO/InputStream/InputAndOutStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bearfamily/Networking/Socket/SocketClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="34" column="41" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bearfamily/Collections/Queues/LinkedList/LinkedListOper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="50" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bearfamily/Enum/EnumOper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bearfamily/MultiThreading/WaitAndNotify/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="67" column="32" selection-start-line="67" selection-start-column="32" selection-end-line="67" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPattern/src/单实例模式/懒汉模式lazyMode/SingletonOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+          <folding>
+            <element signature="e#106#107#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPattern/src/单实例模式/懒汉模式lazyMode/Singleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
+          <folding>
+            <element signature="e#175#176#0" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>JavaBasisFromZero</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
