@@ -1,0 +1,2 @@
+这个文件是用来测试IO流
+1、InputStream的实现类FileInputStream

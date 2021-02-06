@@ -26,6 +26,10 @@ public class MT01 {
     }
 }
 
+/*
+自定义一个线程类（只要实现接口Runnable即可）
+ */
+
 class MyThread implements Runnable{
 
 
