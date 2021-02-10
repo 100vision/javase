@@ -5,60 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51391c21-c251-47a2-b378-b599d5f48d86" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/bearfamily/InnerClass/Selector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/bearfamily/InnerClass/Sequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/状态模式/AlertStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/状态模式/StateModeOperation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/Annotation/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/Annotation/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/Annotation/MyAnnotation1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/Annotation/MyAnnotation1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/Annotation/MyClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/Annotation/MyClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/Annotation/MyEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/Annotation/MyEnum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/Array/arrayRandom.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/Array/arrayRandom.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/Collections/Queues/LinkedList/LinkedListOper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/Collections/Queues/LinkedList/LinkedListOper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/Common/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/Common/Product.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/CustomClassComparable/CustomComparison.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/CustomClassComparable/CustomComparison.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/CustomClassComparable/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/CustomClassComparable/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/DateTime/DateTimeOperation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/DateTime/DateTimeOperation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/DynamicProxies/DynamicProxiesMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/DynamicProxies/DynamicProxiesMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/DynamicProxies/IUserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/DynamicProxies/IUserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/DynamicProxies/IUserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/DynamicProxies/IUserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/DynamicProxies/Interceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/DynamicProxies/Interceptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/DynamicProxies/InterceptorImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/DynamicProxies/InterceptorImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/DynamicProxies/MyInvocationHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/DynamicProxies/MyInvocationHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/DynamicProxies/ProxyFactory$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/DynamicProxies/ProxyFactory$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/DynamicProxies/ProxyFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/DynamicProxies/ProxyFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/DynamicProxy/DynamicProxyMain$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/DynamicProxy/DynamicProxyMain$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/DynamicProxy/DynamicProxyMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/DynamicProxy/DynamicProxyMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/DynamicProxy/Greeting.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/DynamicProxy/Greeting.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/DynamicProxy/GreetingImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/DynamicProxy/GreetingImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/IO/InputStream/InputAndOutStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/IO/InputStream/InputAndOutStream.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/LamdaExpression/LamdaExprMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/LamdaExpression/LamdaExprMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MD5/MD5salt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MD5/MD5salt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MultiThreading/BankAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MultiThreading/BankAccount.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MultiThreading/BankAccountThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MultiThreading/BankAccountThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MultiThreading/MT01.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MultiThreading/MT01.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MultiThreading/MT02.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MultiThreading/MT02.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MultiThreading/MTSafeSchronized.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MultiThreading/MTSafeSchronized.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MultiThreading/MyThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MultiThreading/MyThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MultiThreading/MyThread2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MultiThreading/MyThread2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MultiThreading/ThreadLocal/MyThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MultiThreading/ThreadLocal/MyThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MultiThreading/ThreadLocal/ThreadContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MultiThreading/ThreadLocal/ThreadContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MultiThreading/ThreadLocal/ThreadLocalMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MultiThreading/ThreadLocal/ThreadLocalMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MultiThreading/ThreadLocal/ThreadTask1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MultiThreading/ThreadLocal/ThreadTask1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MultiThreading/ThreadLocal/ThreadTask2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MultiThreading/ThreadLocal/ThreadTask2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MultiThreading/ThreadLocal/ThreadTask3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MultiThreading/ThreadLocal/ThreadTask3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MultiThreading/ThreadLocal/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MultiThreading/ThreadLocal/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MultiThreading/WaitAndNotify/Main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MultiThreading/WaitAndNotify/Main$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MultiThreading/WaitAndNotify/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MultiThreading/WaitAndNotify/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MultiThreading/WaitAndNotify/TaskQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MultiThreading/WaitAndNotify/TaskQueue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MultiThreading/threadpools/Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MultiThreading/threadpools/Task.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MultiThreading/threadpools/ThreadpoolMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/MultiThreading/threadpools/ThreadpoolMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/Networking/Socket/SocketClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/Networking/Socket/SocketClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/Networking/Socket/SocketServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/Networking/Socket/SocketServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/Networking/Socket/SocketThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/Networking/Socket/SocketThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/RefTypes/ReftypeComparision.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/RefTypes/ReftypeComparision.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/RefTypes/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/RefTypes/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/Reflection/Reflection1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/Reflection/Reflection1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/Reflection/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/Reflection/Student.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +51,7 @@
       <recent name="com.bearfamily.DynamicProxies" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Sequence">
+  <component name="RunManager" selected="Application.StateModeOperation">
     <configuration name="DynamicProxiesMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.bearfamily.DynamicProxies.DynamicProxiesMain" />
       <module name="JavaBasisFromZero" />
@@ -155,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StaticProxyMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StaticProxy.StaticProxyMain" />
+    <configuration name="StateModeOperation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="状态模式.StateModeOperation" />
       <module name="DesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StaticProxy.*" />
+          <option name="PATTERN" value="状态模式.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,33 +117,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StateModeOperation" />
         <item itemvalue="Application.Sequence" />
         <item itemvalue="Application.DynamicProxiesMain" />
         <item itemvalue="Application.LamdaExprMain" />
         <item itemvalue="Application.DynamicProxyMain" />
-        <item itemvalue="Application.StaticProxyMain" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e7f489e6-73d4-48b6-be1b-c044b3d24a62" name="Default Changelist" comment="" />
+      <changelist id="51391c21-c251-47a2-b378-b599d5f48d86" name="Default Changelist" comment="" />
       <created>1609123857816</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -203,6 +150,7 @@
       <workItem from="1609571527437" duration="6367000" />
       <workItem from="1609598308482" duration="29000" />
       <workItem from="1610626204409" duration="8544000" />
+      <workItem from="1612925506444" duration="1052000" />
     </task>
     <task id="LOCAL-00001" summary="Add Dynamic Proxy">
       <created>1609167471144</created>
