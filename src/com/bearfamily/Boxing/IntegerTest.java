@@ -14,11 +14,14 @@ char  --> Character
 boolean  --> Boolean
 
  */
+
 public class IntegerTest {
 
     public static void main(String[] args) {
-        java.lang.Integer i = new java.lang.Integer(100);
-        float f = i.floatValue();
+        Integer i = 100;
+        System.out.println(Integer.MAX_VALUE);
+        System.out.println(java.lang.Double.MAX_VALUE);
+
 
 
     }
