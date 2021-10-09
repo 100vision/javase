@@ -1,0 +1,1 @@
+这是通过FileOutputStream字节流输出内存变量内容到该文件
