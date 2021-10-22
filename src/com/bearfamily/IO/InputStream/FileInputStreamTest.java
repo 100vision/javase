@@ -16,24 +16,23 @@ public class FileInputStreamTest {
 
         //定义一个数组作为缓冲来提高读效率，而不是一个一个字节读取。
         //举例：以下是一个8字节的数组
-        byte [] bytes = new byte[8];
+        byte[] bytes = new byte[8];
 
         try {
-             File file = new File("IOFileInputSteamTest");
-             fs = new FileInputStream(file);
+            File file = new File("IOFileInputSteamTest1");
+            fs = new FileInputStream(file);
 
-             //定义一次读取的字节数
-             int readSize = 0;
+            //定义一次读取的字节数
+            int readSize = 0;
 
-             //读取文件输入流不为-1，-1代表字节流已经空了，读到了文件末尾。
-             while ((readSize = fs.read(bytes)) !=-1) {
-                 //System.out.println(fs.read(bytes,0,readCount));
-                 String content = new String(bytes,0,readSize);
-                 System.out.println(content);
+            //读取文件输入流不为-1，-1代表字节流已经空了，读到了文件末尾。
+            while ((readSize = fs.read(bytes)) != -1) {
+                //System.out.println(fs.read(bytes,0,readCount));
+                String content = new String(bytes, 0, readSize);
+                System.out.println(content);
 
 
-             }
-
+            }
 
 
         } catch (FileNotFoundException e) {
@@ -44,7 +43,7 @@ public class FileInputStreamTest {
             }
 
 
-
+        }
     }
-    }
+}
 

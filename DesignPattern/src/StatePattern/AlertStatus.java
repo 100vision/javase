@@ -1,4 +1,4 @@
-package 状态模式;
+package StatePattern;
 
 interface AlertStatus {
     void alert();

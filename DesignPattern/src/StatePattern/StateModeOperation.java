@@ -1,4 +1,6 @@
-package 状态模式;
+package StatePattern;
+
+import StatePattern.StarShip;
 
 public class StateModeOperation {
 
