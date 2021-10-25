@@ -23,6 +23,8 @@ Java的反射API提供的Field类封装了字段的所有信息：
 public class Reflection1 {
     public static void main(String[] args) throws IllegalAccessException, InstantiationException {
         try {
+
+            //获取Student的字节码对象,即student.class
             Class c1 = Class.forName("com.bearfamily.Reflection.Student");
             Object obj = c1.newInstance();
 
