@@ -1,4 +1,4 @@
-package 单实例模式.懒汉模式lazyMode;
+package Singleton;
 
 /**
  * 单实例模式：

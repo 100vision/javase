@@ -1,4 +1,8 @@
-package 状态模式;
+package StatePattern;
+
+import StatePattern.AlertStatus;
+import StatePattern.AttentionAlert;
+import StatePattern.WarningAlert;
 
 class StarShip {
 
