@@ -1,5 +1,7 @@
 package com.bearfamily.Common;
 
+import java.util.Objects;
+
 public class Product {
     private String productId;
     private String productName;
@@ -33,5 +35,39 @@ public class Product {
 
     public void setStock(int stock) {
         this.stock = stock;
+    }
+
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        /*
+        Product product = (Product) o;
+        return stock == product.stock &&
+                productId.equals(product.productId) &&
+                productName.equals(product.productName);
+
+         */
+        return  false;
+    }
+
+    /*
+    @Override
+    public int hashCode() {
+        return Objects.hash(productId, productName, stock);
+    }
+
+     */
+
+
+
+    @Override
+    public String toString() {
+        return "Product{" +
+                "productId='" + productId + '\'' +
+                ", productName='" + productName + '\'' +
+                ", stock=" + stock +
+                '}';
     }
 }
