@@ -2,12 +2,22 @@ package com.bearfamily.Enum;
 
 public class EnumTest01 {
     public static void main(String[] args) {
-        System.out.println(Weekday.SAT);
 
-        BuildState buildState = BuildState.NOTSTARTED;
-        switch (buildState) {
-            case CLOSING:
-                System.out.println("machine is closing");
+
+        Machine m = new Machine();
+        m.setMachineState(BuildState.STARTED);
+
+        if(m.getMachineState().isOperatinal()) {
+            System.out.println("machine is open or started");
+        }else {
+            System.out.println("machine is not open. can't build ");
+        }
+
+
+
+        switch (m.getMachineState()) {
+            case STARTED:
+                System.out.println("machine is started");
                 break;
             case INITIAILIZING:
                 System.out.println("machien is intializing");

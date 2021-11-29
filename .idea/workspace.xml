@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51391c21-c251-47a2-b378-b599d5f48d86" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/bearfamily/Enum/BuildState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/bearfamily/Enum/EnumTest01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/bearfamily/Enum/Weekday.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bearfamily/Enum/Machine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/Enum/EnumTest01.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasisFromZero/com/bearfamily/Enum/EnumTest01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bearfamily/Enum/BuildState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bearfamily/Enum/BuildState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bearfamily/Enum/EnumTest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bearfamily/Enum/EnumTest01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bearfamily/Enum/Weekday.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +21,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -165,7 +167,7 @@
       <workItem from="1635945143477" duration="1257000" />
       <workItem from="1636342759154" duration="7919000" />
       <workItem from="1637566467627" duration="1927000" />
-      <workItem from="1638154591975" duration="1232000" />
+      <workItem from="1638154591975" duration="3264000" />
     </task>
     <task id="LOCAL-00001" summary="Add Dynamic Proxy">
       <created>1609167471144</created>
@@ -206,30 +208,31 @@
     <option name="LAST_COMMIT_MESSAGE" value="Added one more Multiple Threading examples." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="721" y="164" key="#com.intellij.ide.util.MemberChooser" timestamp="1636359848184">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="721" y="158" key="#com.intellij.ide.util.MemberChooser" timestamp="1638157294553">
+      <screen x="0" y="0" width="1920" height="999" />
     </state>
     <state x="721" y="164" key="#com.intellij.ide.util.MemberChooser/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1636359848184" />
-    <state width="1867" height="478" key="GridCell.Tab.0.bottom" timestamp="1638155846366">
+    <state x="721" y="158" key="#com.intellij.ide.util.MemberChooser/-1920.0.1920.999/0.0.1920.999@0.0.1920.999" timestamp="1638157294553" />
+    <state width="1867" height="478" key="GridCell.Tab.0.bottom" timestamp="1638157590281">
       <screen x="0" y="0" width="1920" height="999" />
     </state>
     <state width="1867" height="502" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1636422321576" />
-    <state width="1867" height="478" key="GridCell.Tab.0.bottom/-1920.0.1920.999/0.0.1920.999@0.0.1920.999" timestamp="1638155846366" />
-    <state width="1867" height="478" key="GridCell.Tab.0.center" timestamp="1638155846365">
+    <state width="1867" height="478" key="GridCell.Tab.0.bottom/-1920.0.1920.999/0.0.1920.999@0.0.1920.999" timestamp="1638157590281" />
+    <state width="1867" height="478" key="GridCell.Tab.0.center" timestamp="1638157590280">
       <screen x="0" y="0" width="1920" height="999" />
     </state>
     <state width="1867" height="502" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1636422321576" />
-    <state width="1867" height="478" key="GridCell.Tab.0.center/-1920.0.1920.999/0.0.1920.999@0.0.1920.999" timestamp="1638155846365" />
-    <state width="1867" height="478" key="GridCell.Tab.0.left" timestamp="1638155846365">
+    <state width="1867" height="478" key="GridCell.Tab.0.center/-1920.0.1920.999/0.0.1920.999@0.0.1920.999" timestamp="1638157590280" />
+    <state width="1867" height="478" key="GridCell.Tab.0.left" timestamp="1638157590280">
       <screen x="0" y="0" width="1920" height="999" />
     </state>
     <state width="1867" height="502" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1636422321576" />
-    <state width="1867" height="478" key="GridCell.Tab.0.left/-1920.0.1920.999/0.0.1920.999@0.0.1920.999" timestamp="1638155846365" />
-    <state width="1867" height="478" key="GridCell.Tab.0.right" timestamp="1638155846366">
+    <state width="1867" height="478" key="GridCell.Tab.0.left/-1920.0.1920.999/0.0.1920.999@0.0.1920.999" timestamp="1638157590280" />
+    <state width="1867" height="478" key="GridCell.Tab.0.right" timestamp="1638157590281">
       <screen x="0" y="0" width="1920" height="999" />
     </state>
     <state width="1867" height="502" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1636422321576" />
-    <state width="1867" height="478" key="GridCell.Tab.0.right/-1920.0.1920.999/0.0.1920.999@0.0.1920.999" timestamp="1638155846366" />
+    <state width="1867" height="478" key="GridCell.Tab.0.right/-1920.0.1920.999/0.0.1920.999@0.0.1920.999" timestamp="1638157590281" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
