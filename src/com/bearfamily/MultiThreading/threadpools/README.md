@@ -30,3 +30,5 @@ task --> queue --> pool (thread++) --> Reject (if maxPoolSize exceeds)
 
 使用有界队列时，队列大小和线程池大小互相配合。
 线程池小于队列长度可以减少内存消耗，降低cpu上下文切换，但会限制吞吐。
+- minor changes
+- major changes
