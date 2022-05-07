@@ -1,7 +1,6 @@
 package com.bearfamily.MultiThreading.threadpools;
 
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
+import java.util.concurrent.*;
 
 /*
 使用线程池。
@@ -30,6 +29,43 @@ public class ThreadpoolMain {
         //关闭线程池
         es.shutdown();
 
+
+        //创建自定义的线程池（推荐）
+        //自定义和创建一个有界队列的LinkedBlockingQueue线程池
+        ExecutorService threadPool = new ThreadPoolExecutor(
+                //核心线程数量
+                5,
+                //允许最大的线程数
+                10,
+                2L,
+                TimeUnit.SECONDS,
+
+                //使用的阻塞队列
+                new LinkedBlockingQueue<>(8),
+                //拒绝访问策略
+                /**
+                 * new ThreadPoolExecutor.AbortPolicy() :AbortPolicy(默认)
+                 *      直接抛出RejectedExecutionException异常阻止系统正常运行
+                 * DiscardOldestPolicy：抛弃队列中等待最久的任务，然后把当前任务加人队列中
+                 * 尝试再次提交当前任务。
+                 * DiscardPolicy：该策略默默地丢弃无法处理的任务，不予任何处理也不抛出异常。
+                 * 如果允许任务丢失，这是最好的一种策略。
+                 */
+                //CallerRunsPolicy：“调用者运行”一种调节机制，该策略既不会抛弃任务，也不会抛出异常，而是将某些任务回退到调用者，从而降低新任务的流量。
+                new ThreadPoolExecutor.CallerRunsPolicy()
+
+        );
+
+        //提交20个任务到自定义线程池
+        for (int i=0;i<20;i++) {
+            threadPool.submit(new Task("" +i));
+        }
+
+        //关闭线程池
+        threadPool.shutdown();
+
+
+
     }
 }
 
@@ -45,7 +81,7 @@ class Task implements Runnable{
 
     @Override
     public void run() {
-        System.out.println("Starting task " + name);
+        System.out.println("Custom Pool :" + Thread.currentThread().getName() +"Starting task " + name);
         try {
             Thread.sleep(1000);
         } catch (InterruptedException e) {
