@@ -22,7 +22,7 @@ task --> queue --> pool (thread++) --> Reject (if maxPoolSize exceeds)
 - linkedBlockingQueue, 无界，默认没有队列大小限制。线程池类型newFixedThreadPool底层使用；
 
 缺点：当任务执行时间较长可能会导致大量新任务在队列中堆积，导致Out of Memory内存溢出。
-内存很高。
+内存很高
 
 #### 有界队列
 - ArrayBlockingQueue
