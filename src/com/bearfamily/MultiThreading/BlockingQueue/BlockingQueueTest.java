@@ -29,10 +29,12 @@ public class BlockingQueueTest {
         threadPool.shutdown();
 */
 
+
+
     }
 }
 
-//产品
+
 class Product {
     private  String id;
     private  String name;
@@ -48,7 +50,9 @@ class Product {
 
 }
 
+
 //生产者类
+
 class Producer implements Runnable {
 
     private BlockingQueue queue;
@@ -82,7 +86,9 @@ class Producer implements Runnable {
     }
 }
 
+
 //消费者类
+
 class Consumer implements Runnable {
 
     private BlockingQueue queue;
